@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GCI Infinity Flyers (and Titan Track) - Kit Instructions</title>
+</head>
+
+<body>
+
+<p>
+The GCI Infinity Flyers kit has 2 components: the custom Infinity Flyer trains (both Generic-themed and Steampunk-themed) and the modeled Titan Track. The generic Infinity Flyer train is easily recolorable and has animated restraints. The Steampunk Infinity Flyer train is not easily recolorable but has animated restraints. If you want to make a custom zero car, look in the "Track" folder, open the "generic infinity flyers.blend" file and use the "template - Nose (customize me!)". The train scripts were made by TheCodeMaster and Robinbob. 
+</p>
+
+<br />
+<p><b> 
+I. CUSTOM TRAIN SETUP
+<br />
+II. (Optional) TITAN TRACK SETUP
+<br />
+III. (Optional) STEEL COLUMN SUPPORTS SETUP
+</b></p>
+
+<br />
+
+<p><b>
+I. CUSTOM TRAIN SETUP
+</b></p>
+
+<br />
+
+<p><i>
+For your GCI Infinity Flyer coaster...
+</i></p>
+
+<p>
+1. Set the Heartline to 0.85 meters
+</p>
+<p>
+2. Set the "Coaster Style" to Gravity Group Timberliner
+</p>
+<p>
+3. Name the coaster "IF"
+</p>
+<p>
+This is all necessary for the custom trains to attach to the track properly. After setting up your "Coaster Properties", open each NL2SCO and start adding the objects. Place these objects close to the invisible Timberliner trains so they attach properly (somewhere within a few meters of the invisible train is good). You only need 1 "Nose" per train. However, the amount of bogies and cars you need depends on how long your train is. For a 6-car long train, you would add 6 "Car" models and 7 "Bogie" models (because don't forget, the "Nose" needs a bogie too). 
+</p>
+<br />
+
+<p><b>II. CUSTOM TRACK SETUP</b></p>
+<p><b>Warning:</b> The Titan Track model is high poly. In simple terms, large sections of it will lag weaker computers - keep that in mind. 
+</p>
+<br />
+
+<p>
+To put custom Titan Track on your layout, you will need a few things: Blender (to open and modify the track model), NoLimits 2 Professional (to export your track layout), and the BlenderNoLimitsCSVImporter (to import your track layout into Blender).
+</p>
+
+<br />
+
+<p>Blender: https://www.blender.org/download/</p>
+<br />
+<p>BlenderNoLimitsCSVImporter: https://github.com/geforcefan/BlenderNoLimitsCSVImporter</p>
+<br />
+
+<p>1. Under "Professional" tab in NoLimits Editor, click "Export Track Spline". Set the "Spline Type" to Center of Rails, and set "Distance Between Points" to 1 meter.</p>
+
+<br />
+
+<p>2. Open the .blend file in the "Track" folder. This has the custom Titan Track (and unthemed Infinity Flyer train) inside.</p> 
+
+<br />
+
+<p>
+3. To import your track layout into Blender, use this guide: https://github.com/geforcefan/BlenderNoLimitsCSVImporter (scroll down)
+</p>
+
+<br />
+
+<p>
+4. To add the custom track along your layout, use this tutorial: https://youtu.be/hc3WF3vrc38. Click on the "1 Titan Track" object as well as "2 Crossties", then set up the Array and Curve modifiers for both of them. If only parts of your layout use Titan Track: under "Fit Type", use Fixed Count, not Fit Curve. To slide the Titan Track and Crossties across your track, use Move (G), then Constrain to X-Axis (X), then drag it (or type in a length to slide the track by, in meters). 
+<br />
+Sidenote: If you plan to make steel column supports for your Titan Track coaster, repeat the Array and Curve process for the "3 (optional) Spine" object too. 
+</p>
+
+<br />
+
+<p>
+5. Select your new track object (the one that covers the entire layout), click "File" in the top left corner of Blender. Then, click "Export", then glTF 2.0. Then under "Operator Presets", change "Format" to glTF Embedded (.gltf). Then, under "Include", check the box beside "Limit to selected objects". Then, click "Export glTF 2.0", and export this file to your NoLimits park. 
+</p>
+
+<br />
+
+<p>
+6. Set up an NL2SCO for your custom track using this tutorial: https://youtu.be/qzB_pBE3Wv8
+</p>
+
+<br />
+
+<p><b>III. STEEL COLUMN SUPPORTS SETUP</b></p>
+
+<p>Do you want steel column supports like GCI's dueling model at IAAPA? If so, here's how to make that:</p>
+
+<br />
+
+<p>
+1. Make a separate coaster and duplicate your Titan Track layout for this new coaster. 
+</p>
+
+<br />
+
+<p>
+2.Make sure this coaster's track is invisible (so you only see the Titan Track). 
+</p>
+
+<br />
+
+<p>3. Add supports and catwalks to this new coaster, not your original coaster. Make sure the support columns end inside the Titan Track spine (so they are "connected").</p>
+
+<br />
+
+<p>
+If you have any more questions or make something with this kit, contact me on Discord (Kw6sTheater#8572)! I would love to see your Infinity Flyers creations.
+<br /> 
+Enjoy!
+<br />
+Kw6sTheater</p>
+
+</body>
+</html>
